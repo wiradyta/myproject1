@@ -1,0 +1,246 @@
+footer{
+  font-family: "open sans";
+}
+
+/*--------triangle update-------------*/
+
+.triangle {
+  position: relative;
+  background: #F7B733;
+  height: 7vh;
+  padding: 9px 15px 20px 20px;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 38px 38px 0 38px;
+  border-color: #F7B733 transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+}
+
+/*---------------------*/
+
+
+.head-footer-title {
+    float: left;
+    padding: 0px;
+    font-size: 10px;
+    font-style: oblique;
+    color: white;
+}
+
+.head-footer-logo li {
+  list-style: none;
+    float: left;
+    padding: 0px 30px;
+}
+
+.head-footer-logo img {
+    width: 100px;
+}
+
+.img1:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img3:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img3 {
+    padding-top: 5px;
+}
+
+.img4:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img5 {
+    padding-top: 10px;
+}
+
+.img5:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*===========================================*/
+/*====================FOOTER=================*/
+/*===========================================*/
+
+.footer {
+  background-color: #DFDCE3;
+  color: #fff;
+  height: 320px;
+  padding: 30px;
+}
+
+.footer-logo img {
+    width: 150px;
+    position: relative;
+}
+
+.footer-extra1 {
+   position: absolute;
+    padding-left: 200px;
+    padding-top: 0px;
+}
+
+.footer-extra1 h1 {
+   list-style: none;
+    font-size: 18px;
+}
+
+.footer-extra1 li {
+   list-style: none;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-extra2 {
+   position: absolute;
+    padding-left: 400px;
+    padding-top: 0px;
+    margin-right: 500px;
+}
+
+.footer-extra2 h2 {
+   list-style: none;
+    font-size: 18px;
+}
+
+.footer-extra2 li {
+   list-style: none;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.lcf {
+    font-family: "open sans extrabold";
+}
+
+.zuck {
+    font-family: "lucida calligrapgy";
+    margin-top: 20px;
+}
+
+.zuck span{
+    color: #F7B733;
+    font-size: 19px;
+}
+
+.footer-extra3 {
+   position: absolute;
+    padding-left: 850px;
+    padding-top: 0px;
+    margin-right: 50px;
+}
+
+.footer-extra3 h3 {
+   list-style: none;
+    font-size: 18px;
+}
+
+.footer-extra3 li {
+   list-style: none;
+    font-size: 15px;
+}
+
+.email {
+    margin-top: 20px;
+    font-size: 9px;
+}
+
+.btn-subscribe {
+    background-color: #F7B733;
+    padding: 8px 20px;
+    color: white;
+    display: inline-block;
+    opacity: 1;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 7px #D35400;
+}
+
+.btn-subscribe:hover {
+    opacity: 0.8;
+}
+
+.btn-subscribe:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none; 
+}
+.txt-email {
+    margin-right: 0px;
+    border-color: #D35400;
+}
+
+/*===========================================*/
+/*=============FOOTER BOTTOM=================*/
+/*===========================================*/
+
+
+.footer-bottom {
+    padding-top: 240px;
+}
+
+.socmed-icon {
+    padding: 0px 0px;
+    position: relative;
+    float: left;
+}
+
+.socmed-icon img {
+    width:30px;
+}
+
+.icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.reserved h1 {
+    padding-top: 30px;
+    font-size: 10px;
+    font-style: italic;
+    position: absolute;
+}
+
+.img21:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img22:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img23:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.img24:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
